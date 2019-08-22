@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let diemvatly;
+    let diemhoahoc;
+    let diemsinhhoc;
+    diemvatly = prompt("Điểm vật lý");
+    diemhoahoc = prompt("Điểm hoá học");
+    diemsinhhoc = prompt("Điểm sinh học");
+    let diemcvl = parseInt(diemvatly);
+    let diemhh = parseInt(diemhoahoc);
+    let diemsh = parseInt(diemsinhhoc);
+    let tongdiem = diemcvl + diemhh + diemsh;
+    let diemTB = tongdiem / 3;
+    document.write("Tổng điểm =" + tongdiem);
+    document.write('<br/>');
+    document.write("Điểm trung bình =" + diemTB);
+
+</script>
+</body>
+</html>
